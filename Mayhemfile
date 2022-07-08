@@ -1,0 +1,10 @@
+project: Apktool
+target: Apktool
+
+duration: 60
+
+testsuite:
+  - file://example.apk
+
+cmds:
+  - cmd: ./expandpass -i @@
